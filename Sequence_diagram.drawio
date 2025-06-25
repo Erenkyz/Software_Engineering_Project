@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Sayfa -1" id="55AJFsI-dW9j-n2rh6jq">
+    <mxGraphModel dx="1281" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-1" value="Guest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="35" height="954" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-2" value="&quot;Hotel Web App&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="337" y="20" width="150" height="954" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="-Rbvr4EpdCAEd15GBE69-2">
+          <mxGeometry x="70" y="109" width="10" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-4" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="341" width="430" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-5" value="[Guest is not registered]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="-Rbvr4EpdCAEd15GBE69-4">
+          <mxGeometry x="30" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-6" value="[Guest is registered]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="-Rbvr4EpdCAEd15GBE69-4">
+          <mxGeometry y="244" width="430" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-7" value="Initiate Room Booking" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-1" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-8" value="Request Dates and Room Type" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-9" value="Provide Dates and Room Type" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-1" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-10" value="Check if Guest is registered" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="291" />
+              <mxPoint x="467" y="321" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-11" value="Request Registration Details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-12" value="Submit Registration Details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-1" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-13" value="Create new Guest record" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="530" />
+              <mxPoint x="467" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-14" value="Retrieve Guest data" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="661" />
+              <mxPoint x="467" y="691" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-15" value="Create Booking with unique code" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="785" />
+              <mxPoint x="467" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Rbvr4EpdCAEd15GBE69-16" value="Confirm Booking and provide code" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="-Rbvr4EpdCAEd15GBE69-3" target="-Rbvr4EpdCAEd15GBE69-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
